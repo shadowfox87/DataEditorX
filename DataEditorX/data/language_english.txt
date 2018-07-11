@@ -13,7 +13,6 @@ CodeEditForm.mainMenu.menuitem_setcard	Set DataBase
 CodeEditForm.mainMenu.menuitem_help	Help(&H)
 CodeEditForm.mainMenu.menuitem_about	About
 DataEditForm.mainMenu.menuitem_autoreturn	(*)Text auto return
-DataEditForm.mainMenu.menuitem_replace	(*)...
 #
 DataEditForm.pl_bottom.btn_img	Import Img
 DataEditForm.pl_main.lb_types	Card type
@@ -45,7 +44,6 @@ DataEditForm.mainMenu.menu_image	MSE(&M)
 DataEditForm.mainMenu.menu_data	Data(&D)
 DataEditForm.mainMenu.menuitem_operacardsfile	Opera with Card's files
 DataEditForm.mainMenu.menuitem_openfileinthis	Open Script With CodeEditor
-DataEditForm.mainMenu.menuitem_addrequire	Add REQUIRE Automatically
 DataEditForm.mainMenu.menuitem_readydk	Read From ydk File(&Y)
 DataEditForm.mainMenu.menuitem_readimages	Read From Images Path(&I)
 DataEditForm.mainMenu.menuitem_compdb	Compress DataBase
@@ -106,7 +104,7 @@ MainForm.mainMenu.menuitem_closeall	Close All
 0xf	It's up to date.\nDo you want to download it again?
 0x10	Check update fail. Please Check Network.
 0x11	Find a new version,\nIf Download it?
-0x12	File doesn't exists!
+0x12	File doesn't exist!
 0x13	No selected database!
 0x14	select database file
 0x15	select ydk file
@@ -137,7 +135,7 @@ MainForm.mainMenu.menuitem_closeall	Close All
 0x2e	Cutting Images...
 0x2f	Cut Images OK
 0x30	No Selected Cards
-0x31	Replace image when it exists?
+0x31	Replace Image when it exists?
 0x32	Converting Images
 0x33	Convert Images OK
 0x34	Compression DataBase OK
