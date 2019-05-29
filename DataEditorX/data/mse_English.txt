@@ -9,15 +9,15 @@ maxcount = 3000
 imagepath = ./Images
 ########################### Artwork
 reimage = false
-width = 618
-height = 618
-pwidth = 710
-pheight= 530
+width = 622
+height = 622
+pwidth = 622
+pheight= 795
 ########################### Spell/Trap
 spell = %%
 trap = %%
 ############################ language,style,other setting
-head = mse version: 0.3.8\r\ngame: yugioh\r\nstylesheet: standard\r\nset info:\r\n\tlanguage: EN\r\n\tedition: \r\n\tST mark is text: yes\r\n\tpendulum image is small: yes
+head = mse version: 0.3.8\r\ngame: yugioh\r\nstylesheet: standard\r\nset info:\r\n\tlanguage: EN\r\n\tST mark is text: yes\r\n\tpendulum image is small: no
 end = version control:\n\ttype: none\napprentice code: 
 ############################ Text
 text = Pendulum Text :\n%ptext%\nMonster Text :\n%text%\n
@@ -29,7 +29,7 @@ monster-text = (?:Monster Effect|Flavor Text) \]\s*\n([\S\s]*)
 #replace = ([A-Z]) <i>$1</i>
 ########################### no.10's card
 no10 = false
-no_star_cards = 1686814,52653092,65305468
+no_star_cards = 1686814,52653092,65305468, 90884403, 43490025
 ##race
 race 0x1 Warrior
 race 0x2 Spellcaster
@@ -56,7 +56,6 @@ race 0x200000 Divine-Beast
 race 0x400000 Creator God
 race 0x800000 Wyrm
 race 0x1000000 Cyberse
-race 0x100000000 Charisma
 ###########################
 ##type
 type 0x1 Monster
